@@ -8,11 +8,11 @@ db = client["company_db"]
 users = db["users"]
 
 def run_crud_demo():
-    # --- CREATE ---
-    print("--- Creating Data ---")
-    user_data = {"name": "Alice", "age": 30, "job": "Engineer"}
-    result = users.insert_one(user_data)
-    print(f"Inserted ID: {result.inserted_id}\n")
+    # # --- CREATE ---
+    # print("--- Creating Data ---")
+    # user_data = {"name": "Alice", "age": 30, "job": "Engineer"}
+    # result = users.insert_one(user_data)
+    # print(f"Inserted ID: {result.inserted_id}\n")
 
     # --- READ ---
     print("--- Reading Data ---")
